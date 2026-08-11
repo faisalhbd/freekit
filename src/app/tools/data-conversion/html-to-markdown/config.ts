@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "HTML to Markdown Converter",
+  slug: "html-to-markdown",
+  category: "data-conversion",
+  shortDescription: "Convert HTML markup to clean Markdown text instantly in your browser.",
+  longDescription: "A fast, client-side HTML to Markdown converter that handles headings, lists, links, images, tables, code blocks, and more. Paste any HTML and get clean, readable Markdown output with one click.",
+  metaTitle: "Free HTML to Markdown Converter Online | FreeKit",
+  metaDescription: "Convert HTML to Markdown online for free. Handles headings, lists, links, images, tables, code blocks, and more. No server needed — runs entirely in your browser.",
+  keywords: ["html to markdown", "html converter", "markdown converter", "html to md", "html parser"],
+  tags: ["html", "markdown", "convert", "content", "developer"],
+  icon: "Markdown",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 1, toolOrder: 4, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-06-22", updatedAt: "2025-06-22",
+  relatedTools: ["markdown-to-html", "html-encoder", "text-replacer"],
+  searchPriority: 79, readingTime: 5, clientSide: true,
+  searchAliases: ["html to md converter", "convert html to markdown", "html markdown converter online", "strip html to markdown"],
+  version: "1.0.0",
+}

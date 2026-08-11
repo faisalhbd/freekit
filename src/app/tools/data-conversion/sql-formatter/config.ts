@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "SQL Formatter",
+  slug: "sql-formatter",
+  category: "data-conversion",
+  shortDescription: "Format and beautify SQL queries instantly in your browser with configurable options.",
+  longDescription: "A fast, client-side SQL formatter that parses your queries and produces clean, readable output with proper indentation, keyword uppercase conversion, and configurable spacing. Supports SELECT, JOIN, WHERE, GROUP BY, and all major SQL clauses.",
+  metaTitle: "Free SQL Formatter & Beautifier Online | FreeKit",
+  metaDescription: "Format and beautify SQL queries online for free. Convert messy SQL into clean, readable code with proper indentation, uppercase keywords, and configurable spacing. No server needed.",
+  keywords: ["sql formatter", "sql beautifier", "sql prettier", "format sql", "sql indent", "sql beautify"],
+  tags: ["sql", "formatter", "beautifier", "database", "developer"],
+  icon: "Database",
+  featured: false, popular: true, published: true, status: "published",
+  categoryOrder: 1, toolOrder: 3, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-06-22", updatedAt: "2025-06-22",
+  relatedTools: ["json-formatter", "xml-formatter", "regex-tester"],
+  searchPriority: 85, readingTime: 5, clientSide: true,
+  searchAliases: ["sql beautifier online", "format sql query", "sql prettifier", "indent sql code", "sql code formatter"],
+  version: "1.0.0",
+}

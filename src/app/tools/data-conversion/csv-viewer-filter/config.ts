@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "CSV Viewer & Filter",
+  slug: "csv-viewer-filter",
+  category: "data-conversion",
+  shortDescription: "View, filter, sort, and export CSV data directly in your browser.",
+  longDescription: "A powerful CSV viewer that renders CSV data as an interactive HTML table with real-time search filtering, column sorting, row and column counts, and one-click CSV export of filtered results. Auto-detects delimiters and handles quoted fields.",
+  metaTitle: "Free CSV Viewer & Filter Online | FreeKit",
+  metaDescription: "View and filter CSV data online for free. Sort columns, search across all fields, auto-detect delimiters, and export filtered results. No upload needed — runs entirely in your browser.",
+  keywords: ["csv viewer", "csv filter", "csv sorter", "csv search", "csv table", "data viewer"],
+  tags: ["csv", "viewer", "filter", "sort", "data", "developer"],
+  icon: "Filter",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 1, toolOrder: 2, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-06-22", updatedAt: "2025-06-22",
+  relatedTools: ["csv-to-json", "json-to-csv", "json-formatter"],
+  searchPriority: 78, readingTime: 5, clientSide: true,
+  searchAliases: ["csv viewer online", "csv filter tool", "csv table viewer", "search csv data", "sort csv columns"],
+  version: "1.0.0",
+}

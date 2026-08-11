@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "HTML Entity Encoder",
+  slug: "html-encoder",
+  category: "developer",
+  shortDescription: "Encode and decode HTML entities for safe web content.",
+  longDescription: "Convert special characters to HTML entities and back. Prevent XSS attacks by properly encoding user input, or decode HTML entities to readable text. Supports named entities, numeric entities, and full character sets.",
+  metaTitle: "Free HTML Entity Encoder/Decoder | FreeKit",
+  metaDescription: "Encode and decode HTML entities online for free. Convert special characters to HTML-safe format and prevent XSS attacks.",
+  keywords: ["html encoder", "html decoder", "html entities", "escape html"],
+  tags: ["html", "encoder", "decoder", "security"],
+  icon: "Code",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 5, toolOrder: 5, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-02-15", updatedAt: "2025-06-08",
+  relatedTools: ["url-encoder", "base64-encoder", "json-formatter"],
+  searchPriority: 65, readingTime: 3, clientSide: true,
+  searchAliases: ["html escape", "html entities converter", "encode html"],
+  version: "1.0.0",
+}

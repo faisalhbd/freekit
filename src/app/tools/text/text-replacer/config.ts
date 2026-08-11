@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "Text Replacer",
+  slug: "text-replacer",
+  category: "text",
+  shortDescription: "Find and replace text with regex support and batch processing.",
+  longDescription: "A powerful find and replace tool with support for plain text and regular expressions. Replace all occurrences, use case-sensitive matching, and process multiple replacements in one operation.",
+  metaTitle: "Free Text Replacer - Find & Replace Online | FreeKit",
+  metaDescription: "Find and replace text online for free with regex support. Batch replace text patterns instantly in your browser.",
+  keywords: ["text replacer", "find and replace", "regex replace", "batch replace"],
+  tags: ["text", "replace", "regex", "search"],
+  icon: "Replace",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 4, toolOrder: 4, featuredOrder: 0,
+  difficulty: "Intermediate", author: "FreeKit Team",
+  createdAt: "2025-02-08", updatedAt: "2025-06-14",
+  relatedTools: ["word-counter", "case-converter", "remove-duplicate-lines", "text-cleaner"],
+  searchPriority: 68, readingTime: 4, clientSide: true,
+  searchAliases: ["find replace", "text search replace", "regex replace online"],
+  version: "1.0.0",
+}

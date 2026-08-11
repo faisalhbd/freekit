@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "Markdown to HTML",
+  slug: "markdown-to-html",
+  category: "text",
+  shortDescription: "Convert Markdown text to clean HTML code instantly.",
+  longDescription: "Convert Markdown syntax to HTML with support for headings, lists, links, images, code blocks, tables, and more. Preview the rendered HTML output and copy the generated code. Perfect for bloggers and documentation writers.",
+  metaTitle: "Free Markdown to HTML Converter | FreeKit",
+  metaDescription: "Convert Markdown to HTML online for free. Support for GFM, tables, code blocks, and more. Get clean HTML output instantly in your browser.",
+  keywords: ["markdown to html", "markdown converter", "md to html", "markdown render"],
+  tags: ["markdown", "html", "converter", "text"],
+  icon: "FileCode",
+  featured: false, popular: true, published: true, status: "published",
+  categoryOrder: 6, toolOrder: 6, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-07-22", updatedAt: "2025-07-22",
+  relatedTools: ["case-converter", "word-counter", "text-replacer", "markdown-editor-preview"],
+  searchPriority: 84, readingTime: 4, clientSide: true,
+  searchAliases: ["md to html", "markdown converter online", "render markdown", "markdown parser"],
+  version: "1.0.0",
+}

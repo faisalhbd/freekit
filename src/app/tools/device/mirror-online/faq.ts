@@ -1,0 +1,13 @@
+import type { FAQItem } from "@/types"
+export const faqs: FAQItem[] = [
+  { question: "How does the online mirror work?", answer: "The online mirror uses your device's webcam through the browser's getUserMedia API. The video is displayed with a CSS scaleX(-1) transform to create a natural mirror effect, just like looking in a real mirror." },
+  { question: "Is this a real mirror?", answer: "It's a digital mirror that uses your webcam. The image is flipped horizontally to replicate a mirror reflection. It has a slight delay compared to a real mirror due to camera processing." },
+  { question: "Can I use this on my phone?", answer: "Yes, this works on mobile devices with a front-facing camera. The front camera is activated by default, giving you the same mirror experience as on a desktop." },
+  { question: "How do I make it fullscreen?", answer: "Click the fullscreen button in the bottom-right corner of the video. This hides all other UI elements and gives you a clean, full-screen mirror view. Press ESC to exit fullscreen." },
+  { question: "Is my video recorded or stored?", answer: "No. The webcam video is only displayed in your browser. No video data is recorded, uploaded, or stored anywhere. Everything stays on your device." },
+  { question: "Why is there a slight delay?", answer: "Webcam video has a small processing delay (typically 50-200ms) due to camera sensor capture, encoding, and browser rendering. This is normal for all digital cameras and is not a bug." },
+  { question: "Can I use my rear camera?", answer: "The tool defaults to the front-facing camera for a natural mirror experience. On mobile devices, you may be able to select the rear camera through the browser's camera selection dialog when granting permission." },
+  { question: "What if the mirror looks blurry?", answer: "Clean your camera lens and ensure good lighting. The mirror quality depends on your camera resolution and lighting conditions. Most modern devices have sufficient quality for a good mirror experience." },
+  { question: "Does this work offline?", answer: "No, you need to load the webpage first. However, once loaded, the webcam access is entirely local and doesn't require an internet connection to function." },
+  { question: "Is there a zoom feature?", answer: "The mirror displays at the natural camera resolution. You can use your browser's zoom (Ctrl+/Cmd+) or pinch-to-zoom on mobile to get a closer view." },
+]

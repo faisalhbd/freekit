@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "JSON Formatter",
+  slug: "json-formatter",
+  category: "developer",
+  shortDescription: "Format, validate, and beautify JSON data instantly.",
+  longDescription: "A powerful JSON formatter and validator that beautifies minified JSON, validates syntax errors, and lets you copy the formatted output. Supports tree view, compact mode, and custom indentation.",
+  metaTitle: "Free JSON Formatter & Validator | FreeKit",
+  metaDescription: "Format, beautify, and validate JSON data online for free. Fix JSON errors instantly with syntax highlighting and tree view.",
+  keywords: ["json formatter", "json beautifier", "json validator", "json prettify"],
+  tags: ["json", "format", "validate", "developer"],
+  icon: "Braces",
+  featured: true, popular: true, published: true, status: "published",
+  categoryOrder: 1, toolOrder: 1, featuredOrder: 2,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-01-10", updatedAt: "2025-06-22",
+  relatedTools: ["json-to-yaml", "json-to-csv", "base64-encoder", "json-validator", "xml-formatter"],
+  searchPriority: 98, readingTime: 5, clientSide: true,
+  searchAliases: ["json beautifier", "json prettify", "json fixer", "pretty print json"],
+  version: "1.0.0",
+}

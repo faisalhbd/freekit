@@ -1,0 +1,13 @@
+import type { FAQItem } from "@/types"
+export const faqs: FAQItem[] = [
+  { question: "How do I test if both speakers are working?", answer: "Click the 'Both Channels' button. You should hear the tone equally from both the left and right speakers. Then test each channel individually to confirm they both produce sound." },
+  { question: "What is a stereo panner test?", answer: "The StereoPannerNode in the Web Audio API allows us to send audio exclusively to the left or right channel. A value of -1 sends all audio to the left, +1 to the right, and 0 sends equally to both." },
+  { question: "Why can't I hear anything from one speaker?", answer: "Possible causes include a disconnected speaker, a hardware issue, incorrect audio balance settings in your OS, or a loose connection. Check your system's sound settings to ensure the balance is centered." },
+  { question: "What does the frequency sweep do?", answer: "The frequency sweep plays a tone that gradually increases from low (100Hz) to high (10,000Hz) frequencies, testing your speakers across the full audible range. If certain frequencies are missing or distorted, it may indicate a speaker issue." },
+  { question: "What frequency is used for the channel test?", answer: "The default channel test uses a 440Hz sine wave (the musical note A4), which is a clear, easy-to-identify tone that works well for testing both low and high frequency speaker drivers." },
+  { question: "Does this work with headphones?", answer: "Yes, this tool works with headphones as well. In fact, testing with headphones is a great way to verify that both the left and right audio channels are being output correctly from your device." },
+  { question: "What is the waveform display showing?", answer: "The waveform display shows the real-time audio signal using an AnalyserNode from the Web Audio API. It visualizes the amplitude of the sound wave over time, confirming that audio is being generated correctly." },
+  { question: "Can I change the test frequency?", answer: "The tool provides preset buttons for different tests. The channel test uses 440Hz and the sweep covers 100Hz to 10kHz. These are chosen to comprehensively test speaker performance." },
+  { question: "Is this tool safe for my speakers?", answer: "Yes, the tool plays at a moderate volume level (0.3 gain) to protect your hearing and speakers. You can increase your device volume for better audibility, but the tool itself does not produce dangerously loud output." },
+  { question: "Why does the waveform not show anything?", answer: "Make sure you have started a test by clicking one of the buttons. If the waveform is still flat, check that your browser has permission to play audio and that your system volume is not muted." },
+]

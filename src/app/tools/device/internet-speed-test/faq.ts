@@ -1,0 +1,13 @@
+import type { FAQItem } from "@/types"
+export const faqs: FAQItem[] = [
+  { question: "How does this speed test work?", answer: "The tool downloads a known-size test file from a public CDN and measures how long it takes. Your download speed is calculated as (file size × 8) / time, displayed in Mbps (megabits per second)." },
+  { question: "Is this speed test accurate?", answer: "It provides a reasonable estimate of your download speed. Results may vary from other speed tests due to server location, network conditions, and the single-connection approach. For the most accurate results, close other tabs and applications." },
+  { question: "Why is my speed lower than expected?", answer: "Factors that can reduce speed include other devices on your network, background downloads, Wi-Fi interference, distance from your router, ISP throttling, and the test server's location." },
+  { question: "Does this test upload speed?", answer: "Currently this tool only measures download speed. Upload speed testing requires sending data to a server, which is more complex and may have privacy implications." },
+  { question: "How can I improve my speed?", answer: "Try using an Ethernet cable instead of Wi-Fi, restart your router, close bandwidth-heavy applications, move closer to your router, or contact your ISP if speeds are consistently below your plan's advertised rate." },
+  { question: "What is a good download speed?", answer: "It depends on your needs: 5-10 Mbps is sufficient for browsing, 25+ Mbps for HD video streaming, 50+ Mbps for 4K streaming, and 100+ Mbps for large downloads or multiple users." },
+  { question: "Why does the test take a while?", answer: "The test downloads a multi-megabyte file to get an accurate measurement. On slower connections, this takes longer. The progress bar shows real-time download progress." },
+  { question: "Can I run the test multiple times?", answer: "Yes, click 'Run Test' again to re-test. Running multiple times can help identify inconsistent speeds. We recommend running 2-3 tests and averaging the results." },
+  { question: "What is Mbps?", answer: "Mbps stands for megabits per second, the standard unit for measuring internet speed. 1 Mbps = 1,000,000 bits per second. Note that file downloads are measured in MB/s (megabytes), where 8 Mbps ≈ 1 MB/s." },
+  { question: "Does this work on mobile?", answer: "Yes, this works on mobile browsers. It will test your mobile data or Wi-Fi connection speed. Note that mobile browsers may have download size limitations." },
+]

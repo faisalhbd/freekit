@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "Cron Expression Parser",
+  slug: "cron-expression-parser",
+  category: "data-conversion",
+  shortDescription: "Parse cron expressions into human-readable descriptions and view upcoming execution times.",
+  longDescription: "A comprehensive cron expression parser that converts cron syntax into plain English descriptions, shows a field-by-field breakdown, calculates the next 10 execution times, and validates expressions for errors. Supports standard 5-field cron format.",
+  metaTitle: "Free Cron Expression Parser & Explainer Online | FreeKit",
+  metaDescription: "Parse and understand cron expressions online for free. Get human-readable descriptions, field-by-field breakdowns, next execution times, and validation. No server needed.",
+  keywords: ["cron parser", "cron expression", "cron schedule", "cron explained", "cron validator", "crontab"],
+  tags: ["cron", "scheduler", "parser", "developer", "devops"],
+  icon: "Timer",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 1, toolOrder: 5, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-06-22", updatedAt: "2025-06-22",
+  relatedTools: ["timestamp-converter", "time-zone-converter", "regex-tester"],
+  searchPriority: 77, readingTime: 5, clientSide: true,
+  searchAliases: ["cron expression explained", "cron schedule reader", "understand cron", "cron next run time", "crontab parser"],
+  version: "1.0.0",
+}

@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "Diff Checker",
+  slug: "diff-checker",
+  category: "text",
+  shortDescription: "Compare two texts side by side and highlight the differences.",
+  longDescription: "Compare two blocks of text and see a detailed line-by-line diff. Highlights additions, deletions, and modifications with color coding. Essential for reviewing code changes, document revisions, and content updates.",
+  metaTitle: "Free Diff Checker Online | FreeKit",
+  metaDescription: "Compare two texts and highlight differences online for free. Line-by-line diff with color-coded additions, deletions, and changes.",
+  keywords: ["diff checker", "text compare", "compare text", "difference checker"],
+  tags: ["diff", "compare", "text", "review"],
+  icon: "GitCompareArrows",
+  featured: true, popular: true, published: true, status: "published",
+  categoryOrder: 8, toolOrder: 8, featuredOrder: 12,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-07-22", updatedAt: "2025-07-22",
+  relatedTools: ["text-replacer", "word-counter", "remove-duplicate-lines", "text-sorter"],
+  searchPriority: 88, readingTime: 4, clientSide: true,
+  searchAliases: ["text compare", "compare two texts", "find differences", "text diff online"],
+  version: "1.0.0",
+}

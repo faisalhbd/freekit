@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "Case Converter",
+  slug: "case-converter",
+  category: "text",
+  shortDescription: "Convert text between uppercase, lowercase, title case, and more.",
+  longDescription: "Transform text case instantly. Convert to uppercase, lowercase, title case, sentence case, camelCase, snake_case, kebab-case, PascalCase, and more. Essential for developers, writers, and data processors.",
+  metaTitle: "Free Case Converter Online | FreeKit",
+  metaDescription: "Convert text to uppercase, lowercase, title case, camelCase, snake_case, and more. Free online case converter with instant results.",
+  keywords: ["case converter", "uppercase", "lowercase", "title case", "camelcase"],
+  tags: ["text", "converter", "case", "format"],
+  icon: "CaseSensitive",
+  featured: false, popular: true, published: true, status: "published",
+  categoryOrder: 3, toolOrder: 3, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-01-16", updatedAt: "2025-06-17",
+  relatedTools: ["word-counter", "text-replacer", "lorem-ipsum-generator", "slug-generator"],
+  searchPriority: 83, readingTime: 4, clientSide: true,
+  searchAliases: ["text case changer", "uppercase converter", "lowercase converter", "camel case converter"],
+  version: "1.0.0",
+}

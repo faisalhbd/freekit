@@ -1,0 +1,68 @@
+import type { ToolConfig } from "@/types"
+
+export const toolConfig: ToolConfig = {
+  title: "Image Format Converter",
+  slug: "image-format-converter",
+  category: "image",
+  shortDescription:
+    "Convert images between JPG, PNG, WebP, and AVIF with side-by-side comparison and quality control.",
+  longDescription:
+    "A focused web format converter that handles JPG, PNG, WebP, and AVIF — the four formats most important for web performance and compatibility. Upload a single image, see the source format auto-detected, choose your target format, preview the original and converted images side by side, compare file sizes, and download. Includes AVIF support with browser compatibility detection and fallback messaging.",
+  metaTitle:
+    "Image Format Converter | JPG PNG WebP AVIF Converter Online | FreeKit",
+  metaDescription:
+    "Convert between JPG, PNG, WebP, and AVIF formats online for free. Side-by-side preview, file size comparison, quality control. Client-side, no upload needed.",
+  keywords: [
+    "image format converter",
+    "jpg to webp",
+    "png to webp",
+    "jpg to avif",
+    "webp converter",
+    "avif converter",
+    "image converter",
+    "web image converter",
+    "convert image format online",
+  ],
+  tags: [
+    "image",
+    "converter",
+    "jpg",
+    "png",
+    "webp",
+    "avif",
+    "format",
+    "web",
+    "optimization",
+  ],
+  icon: "ArrowLeftRight",
+  featured: false,
+  popular: true,
+  published: true,
+  status: "published",
+  categoryOrder: 6,
+  toolOrder: 6,
+  featuredOrder: 0,
+  difficulty: "Beginner",
+  author: "FreeKit Team",
+  createdAt: "2025-07-22",
+  updatedAt: "2025-07-24",
+  relatedTools: [
+    "all-in-one-image-converter",
+    "image-to-webp",
+    "png-to-jpg",
+    "jpg-to-png",
+    "image-compressor",
+  ],
+  searchPriority: 87,
+  readingTime: 4,
+  clientSide: true,
+  searchAliases: [
+    "web image converter",
+    "jpg to avif converter",
+    "png to avif",
+    "webp to jpg",
+    "webp to png",
+    "photo format changer",
+  ],
+  version: "1.0.0",
+}

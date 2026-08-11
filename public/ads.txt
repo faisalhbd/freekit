@@ -1,0 +1,8 @@
+# ads.txt — Authorized Digital Sellers
+# FreeKit does not currently sell advertising. If/when ads are introduced,
+# list authorized seller lines here, e.g.:
+#   google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+#
+# Placeholder record that explicitly states no third-party sellers are
+# authorized, which prevents unauthorized ad arbitrage on this domain.
+contact=hello@freekit.online

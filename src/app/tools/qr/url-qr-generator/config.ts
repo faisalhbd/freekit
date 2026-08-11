@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "URL QR Code Generator",
+  slug: "url-qr-generator",
+  category: "qr",
+  shortDescription: "Convert any URL into a scannable QR code with custom styling.",
+  longDescription: "Generate high-quality QR codes from any URL. Customize colors, size, and error correction level. Quick presets for business cards, posters, and billboards. Download as PNG for print or digital use.",
+  metaTitle: "Free URL QR Code Generator | FreeKit",
+  metaDescription: "Generate a QR code from any URL. Customize colors, size, and error correction. Free online tool with instant PNG download.",
+  keywords: ["url qr code", "qr code generator", "link to qr", "website qr code"],
+  tags: ["qr", "url", "link", "generator"],
+  icon: "Link",
+  featured: false, popular: true, published: true, status: "published",
+  categoryOrder: 2, toolOrder: 2, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-01-20", updatedAt: "2025-06-17",
+  relatedTools: ["wifi-qr-generator", "qr-code-generator", "qr-code-scanner", "barcode-generator", "utm-builder"],
+  searchPriority: 88, readingTime: 4, clientSide: true,
+  searchAliases: ["link qr generator", "website qr", "url to qr code", "create qr from url"],
+  version: "1.0.0",
+}

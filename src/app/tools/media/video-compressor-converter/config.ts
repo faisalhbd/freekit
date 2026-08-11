@@ -1,0 +1,60 @@
+import type { ToolConfig } from "@/types"
+
+export const toolConfig: ToolConfig = {
+  title: "Video Compressor & Converter",
+  slug: "video-compressor-converter",
+  category: "media",
+  shortDescription:
+    "Compress and convert videos online for free using FFmpeg — all processing in your browser.",
+  longDescription:
+    "Compress videos to reduce file size or convert between formats (MP4, WebM, AVI, MOV, MKV, GIF) entirely in your browser using FFmpeg.wasm. Adjust resolution, bitrate, CRF quality, and frame rate. Supports H.264, H.265, VP8, VP9 codecs. No upload to server — your videos never leave your device.",
+  metaTitle:
+    "Video Compressor & Converter - Compress/Convert Video Free Online | FreeKit",
+  metaDescription:
+    "Compress and convert videos online for free. Reduce MP4/WebM file size, change resolution, convert formats. 100% browser-based with FFmpeg.wasm — no server upload.",
+  keywords: [
+    "mp4 compressor",
+    "video compressor",
+    "compress video online",
+    "video converter",
+    "convert video online",
+    "reduce video size",
+    "video to webm",
+    "video to gif",
+    "ffmpeg online",
+    "mp4 to webm",
+  ],
+  tags: ["media", "video", "compressor", "converter", "ffmpeg", "mp4", "webm"],
+  icon: "Film",
+  featured: true,
+  popular: true,
+  published: true,
+  status: "published",
+  categoryOrder: 2,
+  toolOrder: 2,
+  featuredOrder: 2,
+  difficulty: "Beginner",
+  author: "FreeKit Team",
+  createdAt: "2025-01-17",
+  updatedAt: "2025-07-25",
+  relatedTools: [
+    "image-compressor",
+    "image-resizer",
+    "pc-to-phone-file-transfer",
+    "png-to-jpg",
+  ],
+  searchPriority: 95,
+  readingTime: 6,
+  clientSide: true,
+  searchAliases: [
+    "compress mp4",
+    "reduce video file size",
+    "convert video format",
+    "video quality reducer",
+    "online ffmpeg",
+    "webm converter",
+    "make video smaller",
+    "video resolution changer",
+  ],
+  version: "1.0.0",
+}

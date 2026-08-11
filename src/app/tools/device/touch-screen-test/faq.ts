@@ -1,0 +1,13 @@
+import type { FAQItem } from "@/types"
+export const faqs: FAQItem[] = [
+  { question: "How does the touch screen test work?", answer: "The test uses a Canvas element and Touch Events to record where you touch the screen. Each touch creates a colored dot and lines are drawn between sequential touches. The tool also detects simultaneous touches for multi-touch verification." },
+  { question: "How do I test multi-touch?", answer: "Place two or more fingers on the canvas at the same time. The tool will display the number of simultaneous touch points detected and show each with a different colored dot." },
+  { question: "Does this work with a mouse?", answer: "Yes, the tool also supports mouse input for desktop testing. Click and drag to draw. However, multi-touch detection only works with actual touch input on touch-enabled devices." },
+  { question: "Why are there gaps in my drawing?", answer: "Gaps in the drawing may indicate areas of the screen that are not responding to touch. If you consistently see gaps in the same area, there may be a dead zone on your touchscreen." },
+  { question: "Can I test a specific part of the screen?", answer: "Yes, the canvas covers the entire tool area. Draw across the entire surface to test all areas. Pay special attention to the edges and corners, which are common problem areas." },
+  { question: "How many touch points can it detect?", answer: "The number of simultaneous touch points detected depends on your device hardware. Most smartphones support 5-10 simultaneous touches, while tablets may support more." },
+  { question: "What does the touch count mean?", answer: "The touch count shows the total number of individual touch events recorded during the test. This helps you verify that every tap you make is being detected by the screen." },
+  { question: "How do I clear the canvas?", answer: "Click the 'Clear Canvas' button to erase all drawn points and lines and reset the touch count. You can then start a fresh test." },
+  { question: "Does this work on all devices?", answer: "The test works on any device with a modern browser. Touch features work on touch-enabled devices, while mouse events provide basic drawing on desktops." },
+  { question: "What should I look for in the results?", answer: "Check that every area of the screen responds to touches (no dead zones), that lines are smooth without gaps, and that the multi-touch count matches the number of fingers you're using." },
+]

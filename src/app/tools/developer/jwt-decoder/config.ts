@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "JWT Decoder",
+  slug: "jwt-decoder",
+  category: "developer",
+  shortDescription: "Decode and inspect JSON Web Tokens to view payload and header.",
+  longDescription: "Decode JWT tokens to inspect their header, payload, and signature. View expiration times, claims, and token metadata. Perfect for debugging authentication flows and API integrations.",
+  metaTitle: "Free JWT Decoder Online | FreeKit",
+  metaDescription: "Decode JWT tokens online for free. Inspect header, payload, and expiration. Debug authentication and API tokens instantly in your browser.",
+  keywords: ["jwt decoder", "jwt token", "decode jwt", "json web token"],
+  tags: ["jwt", "decoder", "auth", "token"],
+  icon: "KeyRound",
+  featured: true, popular: true, published: true, status: "published",
+  categoryOrder: 7, toolOrder: 7, featuredOrder: 13,
+  difficulty: "Intermediate", author: "FreeKit Team",
+  createdAt: "2025-07-22", updatedAt: "2025-07-22",
+  relatedTools: ["base64-encoder", "hash-generator", "json-validator", "json-formatter"],
+  searchPriority: 88, readingTime: 4, clientSide: true,
+  searchAliases: ["jwt inspector", "decode json web token", "jwt parser", "token decoder"],
+  version: "1.0.0",
+}

@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "JSON to CSV Converter",
+  slug: "json-to-csv",
+  category: "data-conversion",
+  shortDescription: "Convert JSON arrays to CSV format instantly in your browser.",
+  longDescription: "A fast, client-side JSON to CSV converter that flattens nested objects, supports multiple delimiters, and lets you include or exclude headers. Download or copy the CSV result with one click.",
+  metaTitle: "Free JSON to CSV Converter Online | FreeKit",
+  metaDescription: "Convert JSON to CSV online for free. Flatten nested objects, choose delimiters, toggle headers, and download the result. No upload needed — runs entirely in your browser.",
+  keywords: ["json to csv", "json converter", "csv converter", "data conversion", "json to spreadsheet"],
+  tags: ["json", "csv", "convert", "data", "developer"],
+  icon: "FileSpreadsheet",
+  featured: false, popular: true, published: true, status: "published",
+  categoryOrder: 2, toolOrder: 1, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-06-22", updatedAt: "2025-06-22",
+  relatedTools: ["csv-to-json", "json-formatter", "json-validator", "json-to-yaml"],
+  searchPriority: 88, readingTime: 5, clientSide: true,
+  searchAliases: ["json csv converter", "convert json to csv online", "json to spreadsheet", "json array to csv"],
+  version: "1.0.0",
+}

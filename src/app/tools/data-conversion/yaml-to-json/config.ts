@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "YAML to JSON Converter",
+  slug: "yaml-to-json",
+  category: "data-conversion",
+  shortDescription: "Convert YAML to JSON format instantly with a built-in parser.",
+  longDescription: "A lightweight YAML to JSON converter with a custom-built recursive parser that handles key-value pairs, nested objects, lists, and basic types — no external dependencies. Runs entirely in your browser.",
+  metaTitle: "Free YAML to JSON Converter Online | FreeKit",
+  metaDescription: "Convert YAML to JSON online for free. Built-in parser handles nested objects, lists, and basic types. No external libraries — runs 100% in your browser.",
+  keywords: ["yaml to json", "yaml converter", "yaml parser", "data conversion", "yml to json"],
+  tags: ["yaml", "json", "convert", "data", "developer"],
+  icon: "FileCode",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 3, toolOrder: 1, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-06-22", updatedAt: "2025-06-22",
+  relatedTools: ["json-to-yaml", "csv-to-json", "json-formatter"],
+  searchPriority: 80, readingTime: 5, clientSide: true,
+  searchAliases: ["yaml json converter", "convert yaml to json", "yml to json online", "parse yaml"],
+  version: "1.0.0",
+}

@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "Text Cleaner",
+  slug: "text-cleaner",
+  category: "text",
+  shortDescription: "Clean and sanitize messy text by removing extra spaces, blank lines, invisible characters, and more.",
+  longDescription: "Powerful text cleaning tool with 10 customizable options. Remove extra spaces, trailing/leading whitespace, blank lines, zero-width characters, HTML tags, non-printable characters, and fix encoding artifacts. See before/after stats and copy cleaned output instantly.",
+  metaTitle: "Free Text Cleaner Online | FreeKit",
+  metaDescription: "Clean messy text instantly. Remove extra spaces, blank lines, zero-width characters, HTML tags, and encoding artifacts. Free online text cleaning tool.",
+  keywords: ["text cleaner", "remove extra spaces", "clean text", "remove blank lines", "text sanitizer"],
+  tags: ["text", "cleaner", "format", "sanitize"],
+  icon: "Sparkles",
+  featured: false, popular: true, published: true, status: "published",
+  categoryOrder: 10, toolOrder: 10, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-01-20", updatedAt: "2025-06-17",
+  relatedTools: ["remove-extra-spaces", "line-break-remover", "text-replacer", "remove-duplicate-lines", "case-converter"],
+  searchPriority: 85, readingTime: 5, clientSide: true,
+  searchAliases: ["text sanitizer", "clean up text", "remove invisible characters", "fix text encoding", "remove zero width characters"],
+  version: "1.0.0",
+}

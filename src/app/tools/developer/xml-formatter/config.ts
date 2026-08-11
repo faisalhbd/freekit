@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "XML Formatter",
+  slug: "xml-formatter",
+  category: "developer",
+  shortDescription: "Format and beautify XML documents with proper indentation.",
+  longDescription: "Beautify minified or messy XML documents with proper indentation and line breaks. Validates XML structure and makes nested elements easy to read. Essential for working with APIs, sitemaps, and configuration files.",
+  metaTitle: "Free XML Formatter Online | FreeKit",
+  metaDescription: "Format and beautify XML documents online for free. Proper indentation and validation with instant results in your browser.",
+  keywords: ["xml formatter", "xml beautifier", "format xml", "xml prettify"],
+  tags: ["xml", "format", "developer", "beautify"],
+  icon: "FileCode2",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 10, toolOrder: 10, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-07-22", updatedAt: "2025-07-22",
+  relatedTools: ["json-formatter", "json-validator", "html-encoder", "base64-encoder"],
+  searchPriority: 66, readingTime: 4, clientSide: true,
+  searchAliases: ["xml beautifier", "xml prettify", "pretty print xml", "indent xml"],
+  version: "1.0.0",
+}

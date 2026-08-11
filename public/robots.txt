@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Keep internal API and Next.js internals out of the index
+Disallow: /api/
+Disallow: /_next/
+
+Sitemap: https://freekit.online/sitemap.xml

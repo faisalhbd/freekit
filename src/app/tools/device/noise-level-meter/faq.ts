@@ -1,0 +1,13 @@
+import type { FAQItem } from "@/types"
+export const faqs: FAQItem[] = [
+  { question: "How accurate is this noise level meter?", answer: "This tool provides an approximate decibel reading based on microphone input. It is calibrated for relative measurements rather than absolute accuracy. The actual dB level depends on your microphone's sensitivity, gain settings, and distance from the sound source." },
+  { question: "What do the noise levels mean?", answer: "Quiet (<40dB) is like a whisper or library. Moderate (40-70dB) is normal conversation. Loud (70-90dB) is like a vacuum cleaner or busy traffic. Dangerous (>90dB) can cause hearing damage with prolonged exposure." },
+  { question: "How are decibels calculated?", answer: "The tool captures audio frequency data using an AnalyserNode, calculates the RMS (root mean square) amplitude, and converts it to a dB value using the formula: dB = 20 × log10(rms). The reference level is calibrated based on typical microphone sensitivity." },
+  { question: "Does this work without a microphone?", answer: "No, the tool requires microphone access through the browser's getUserMedia API to measure sound levels. Built-in laptop microphones or external microphones work." },
+  { question: "Why does the meter show 0 when I'm not speaking?", answer: "A reading of 0 dB (or near-silence) indicates very low ambient noise, which is normal. If you see high readings with no sound, your microphone may be picking up electronic noise or the gain is set too high." },
+  { question: "Can I calibrate the meter?", answer: "The tool uses a standard calibration based on typical microphone input levels. For professional calibration, you would need a reference sound source with a known dB level to compare against." },
+  { question: "Is my audio data recorded?", answer: "No, all audio processing happens in real-time in your browser. No audio data is recorded, stored, or transmitted. The tool only reads the audio amplitude for the dB calculation." },
+  { question: "What is a safe noise level?", answer: "Prolonged exposure above 85 dB can cause hearing damage. Below 70 dB is generally safe for extended periods. The tool's 'Dangerous' classification at 90+ dB indicates levels that should be avoided." },
+  { question: "Does this work on mobile?", answer: "Yes, this works on mobile devices. The built-in microphone will be used. Note that mobile microphones may have different sensitivity characteristics than desktop microphones." },
+  { question: "Why is the reading fluctuating?", answer: "Sound levels naturally fluctuate in real environments. The tool reads instantaneous levels with some smoothing. The peak value shows the highest level detected during the session." },
+]

@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "URL Encoder/Decoder",
+  slug: "url-encoder",
+  category: "developer",
+  shortDescription: "Encode and decode URLs and query parameters.",
+  longDescription: "Encode special characters in URLs to create valid URL-encoded strings, or decode percent-encoded URLs back to readable text. Essential for working with APIs, query parameters, and web addresses.",
+  metaTitle: "Free URL Encoder/Decoder | FreeKit",
+  metaDescription: "Encode and decode URLs online for free. Convert special characters to percent-encoded format and back.",
+  keywords: ["url encoder", "url decoder", "percent encoding", "url encode"],
+  tags: ["url", "encoder", "decoder", "developer"],
+  icon: "Link",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 4, toolOrder: 4, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-02-05", updatedAt: "2025-06-10",
+  relatedTools: ["base64-encoder", "html-encoder", "json-formatter"],
+  searchPriority: 72, readingTime: 3, clientSide: true,
+  searchAliases: ["percent encoding", "url encode", "url decode", "urlencode"],
+  version: "1.0.0",
+}

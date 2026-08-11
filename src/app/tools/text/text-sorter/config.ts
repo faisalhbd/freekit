@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "Text Sorter",
+  slug: "text-sorter",
+  category: "text",
+  shortDescription: "Sort text lines alphabetically, numerically, or in reverse order.",
+  longDescription: "Sort lines of text in ascending or descending order. Options for alphabetical, numerical, reverse sorting, and removing duplicates. Perfect for organizing lists, log files, and data entries.",
+  metaTitle: "Free Text Sorter Online | FreeKit",
+  metaDescription: "Sort text lines alphabetically or numerically online for free. Ascending, descending, and reverse sorting with deduplication options.",
+  keywords: ["text sorter", "sort lines", "alphabetical sort", "sort text"],
+  tags: ["text", "sort", "organize", "lines"],
+  icon: "ArrowDownAZ",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 9, toolOrder: 9, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-07-22", updatedAt: "2025-07-22",
+  relatedTools: ["remove-duplicate-lines", "diff-checker", "text-replacer", "word-counter"],
+  searchPriority: 65, readingTime: 3, clientSide: true,
+  searchAliases: ["sort lines alphabetically", "line sorter", "text organizer", "sort list online"],
+  version: "1.0.0",
+}

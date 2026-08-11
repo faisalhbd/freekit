@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "WiFi QR Code Generator",
+  slug: "wifi-qr-generator",
+  category: "qr",
+  shortDescription: "Generate QR codes for WiFi network login. Scan to connect instantly.",
+  longDescription: "Create scannable WiFi QR codes that let guests connect to your network instantly. Supports WPA/WPA2, WEP, and open networks with optional hidden network support. Customize colors and size, then download as PNG.",
+  metaTitle: "Free WiFi QR Code Generator | FreeKit",
+  metaDescription: "Generate a WiFi QR code from your network name and password. Supports WPA/WPA2, WEP, and open networks. Free, no sign-up required.",
+  keywords: ["wifi qr code", "wifi qr generator", "wifi password qr", "connect wifi qr"],
+  tags: ["qr", "wifi", "network", "generator"],
+  icon: "Wifi",
+  featured: true, popular: true, published: true, status: "published",
+  categoryOrder: 1, toolOrder: 1, featuredOrder: 7,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-01-20", updatedAt: "2025-06-17",
+  relatedTools: ["url-qr-generator", "qr-code-generator", "qr-code-scanner", "barcode-generator"],
+  searchPriority: 92, readingTime: 4, clientSide: true,
+  searchAliases: ["wifi qr", "wireless qr code", "network qr generator", "wifi password qr code"],
+  version: "1.0.0",
+}

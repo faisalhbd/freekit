@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "Markdown Editor & Preview",
+  slug: "markdown-editor-preview",
+  category: "text",
+  shortDescription: "Write Markdown with a live side-by-side HTML preview.",
+  longDescription: "A split-pane Markdown editor with real-time HTML preview. Write on the left and see the rendered output on the right. Supports GitHub Flavored Markdown, syntax highlighting, and export options.",
+  metaTitle: "Free Markdown Editor & Preview | FreeKit",
+  metaDescription: "Write and preview Markdown online for free. Split-pane editor with live HTML rendering. Supports GFM and syntax highlighting.",
+  keywords: ["markdown editor", "markdown preview", "markdown live", "md editor"],
+  tags: ["markdown", "editor", "preview", "writing"],
+  icon: "FileText",
+  featured: false, popular: false, published: true, status: "published",
+  categoryOrder: 7, toolOrder: 7, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-07-22", updatedAt: "2025-07-22",
+  relatedTools: ["markdown-to-html", "word-counter", "case-converter", "lorem-ipsum-generator"],
+  searchPriority: 70, readingTime: 5, clientSide: true,
+  searchAliases: ["markdown writer", "live markdown preview", "md editor online", "markdown playground"],
+  version: "1.0.0",
+}

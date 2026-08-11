@@ -1,0 +1,13 @@
+import type { FAQItem } from "@/types"
+export const faqs: FAQItem[] = [
+  { question: "How does the hearing test work?", answer: "The test plays pure sine wave tones at specific frequencies from 125Hz to 16kHz. For each frequency, you click 'I can hear it' or 'I cannot hear it'. After completing all frequencies, a chart shows your hearing response across the frequency spectrum." },
+  { question: "Is this a medical hearing test?", answer: "No, this is not a medical diagnosis. It is a basic frequency response check that can indicate general hearing patterns. For a proper hearing evaluation, consult an audiologist who uses calibrated equipment in a soundproof booth." },
+  { question: "Should I use headphones or speakers?", answer: "Headphones are strongly recommended for the most accurate results. Speakers can introduce room acoustics, background noise, and frequency distortion that affect the test. Over-ear headphones provide the best isolation." },
+  { question: "What is a normal hearing range?", answer: "Healthy human hearing typically ranges from 20Hz to 20,000Hz. This test covers 125Hz to 16kHz, which covers the most important speech and music frequencies. The ability to hear 8kHz-16kHz often decreases with age." },
+  { question: "Why might I not hear high frequencies?", answer: "High-frequency hearing loss is common, especially with age (presbycusis) or noise exposure. Most adults over 50 have some difficulty hearing frequencies above 12kHz. This is usually normal." },
+  { question: "How loud are the test tones?", answer: "The tones are played at a moderate, consistent volume level. You should set your device volume to a comfortable listening level before starting. The test does not play extremely loud sounds." },
+  { question: "Can I retake the test?", answer: "Yes, click 'Restart Test' to begin again. Results can vary based on your environment, volume settings, and even your current state of alertness. Multiple tests may give more consistent results." },
+  { question: "What do the results mean?", answer: "The results show which frequencies you could detect. A dip at certain frequencies may suggest sensitivity loss in that range. This information is for educational purposes and should not replace professional audiological testing." },
+  { question: "How long does the test take?", answer: "The test has 12 frequency steps. Each tone plays for a few seconds, so the entire test takes about 1-2 minutes depending on how quickly you respond." },
+  { question: "Does this test both ears?", answer: "This test plays sound through both channels simultaneously (or whatever your audio output is set to). For individual ear testing, you would need to use a single earbud at a time or visit an audiologist." },
+]

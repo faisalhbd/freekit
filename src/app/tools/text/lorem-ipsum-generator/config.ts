@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "Lorem Ipsum Generator",
+  slug: "lorem-ipsum-generator",
+  category: "text",
+  shortDescription: "Generate placeholder text for design and development.",
+  longDescription: "Generate customizable Lorem Ipsum placeholder text for your designs, mockups, and development projects. Choose the number of paragraphs, sentences, or words, and start with the classic 'Lorem ipsum dolor sit amet' or random text.",
+  metaTitle: "Free Lorem Ipsum Generator | FreeKit",
+  metaDescription: "Generate Lorem Ipsum placeholder text online for free. Customize paragraphs, sentences, and words for your design projects.",
+  keywords: ["lorem ipsum generator", "placeholder text", "dummy text", "filler text"],
+  tags: ["text", "generator", "placeholder", "lorem ipsum"],
+  icon: "AlignLeft",
+  featured: false, popular: true, published: true, status: "published",
+  categoryOrder: 2, toolOrder: 2, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-01-11", updatedAt: "2025-06-19",
+  relatedTools: ["word-counter", "case-converter", "text-replacer", "character-counter"],
+  searchPriority: 85, readingTime: 4, clientSide: true,
+  searchAliases: ["placeholder text generator", "dummy text", "filler text creator"],
+  version: "1.0.0",
+}

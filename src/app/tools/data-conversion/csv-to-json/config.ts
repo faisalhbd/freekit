@@ -1,0 +1,21 @@
+import type { ToolConfig } from "@/types"
+export const toolConfig: ToolConfig = {
+  title: "CSV to JSON Converter",
+  slug: "csv-to-json",
+  category: "data-conversion",
+  shortDescription: "Convert CSV data to JSON format instantly in your browser.",
+  longDescription: "A fast, client-side CSV to JSON converter that supports multiple delimiters, first-row-as-header option, and outputs either an array of objects or an array of arrays. Download or copy the result with one click.",
+  metaTitle: "Free CSV to JSON Converter Online | FreeKit",
+  metaDescription: "Convert CSV to JSON online for free. Choose delimiters, toggle headers, pick output format, and download the result. No upload needed — runs entirely in your browser.",
+  keywords: ["csv to json", "csv converter", "json converter", "data conversion", "csv parser"],
+  tags: ["csv", "json", "convert", "data", "developer"],
+  icon: "FileJson",
+  featured: false, popular: true, published: true, status: "published",
+  categoryOrder: 1, toolOrder: 1, featuredOrder: 0,
+  difficulty: "Beginner", author: "FreeKit Team",
+  createdAt: "2025-06-22", updatedAt: "2025-06-22",
+  relatedTools: ["json-to-csv", "json-formatter", "json-validator", "json-to-yaml"],
+  searchPriority: 89, readingTime: 5, clientSide: true,
+  searchAliases: ["csv json converter", "convert csv to json online", "csv to json array", "spreadsheet to json"],
+  version: "1.0.0",
+}
