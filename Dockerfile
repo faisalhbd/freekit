@@ -5,9 +5,9 @@ FROM base AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
-COPY package.json bun.lock ./
+COPY package.json ./
 RUN npm install -g bun
-RUN bun install --frozen-lockfile
+RUN bun install
 
 # --- Build ---
 FROM base AS builder
